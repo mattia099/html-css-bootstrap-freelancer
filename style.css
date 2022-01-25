@@ -6,3 +6,13 @@
 .ms_h-500{height: 500px;}
 .ms_h-250{height: 250px;}
 .ms_border-bottom{border-bottom: 1px solid lightgray;}
+
+
+
+.navbar-light .navbar-brand{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .show>.nav-link{
+    color: white;
+}
