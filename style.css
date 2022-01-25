@@ -1,10 +1,8 @@
 .ms_bg-header{background-color:#2C3E50;}
 .ms_bg-main{background-color: #1ABC9C;}
+.ms_bg-footer{background-color: #3A546D;}
 .ms_border-red{border:2px solid rgb(129, 10, 10);}
 .ms_c-white{color:white}
 .ms_h-500{height: 500px;}
 .ms_h-250{height: 250px;}
-
-.ms_border-bottom{
-    border-bottom: 1px solid lightgray;
-}
+.ms_border-bottom{border-bottom: 1px solid lightgray;}
