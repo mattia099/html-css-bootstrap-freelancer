@@ -4,3 +4,7 @@
 .ms_c-white{color:white}
 .ms_h-500{height: 500px;}
 .ms_h-250{height: 250px;}
+
+.ms_border-bottom{
+    border-bottom: 1px solid lightgray;
+}
