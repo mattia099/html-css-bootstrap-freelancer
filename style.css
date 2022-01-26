@@ -1,6 +1,5 @@
-.ms_bg-header{background-color:#2C3E50;}
+.ms_bg-header{background-color:#3A546D;}
 .ms_bg-main{background-color: #1ABC9C;}
-.ms_bg-footer{background-color: #3A546D;}
 .ms_bg-footer-second{background-color: #2C3E50;}
 .ms_border-red{border:2px solid rgb(129, 10, 10);}
 .ms_c-white{color:white}
@@ -31,4 +30,29 @@
 
 #jumbo img{
     width: 240px
+}
+
+#about h2 , #contact h2{margin:0;}
+
+
+/*stellina*/
+
+.stella i{font-size: 20px;}
+.stella::after, .stella::before{
+    content: '';
+    display: inline-block;
+    width: 120px;
+    height: 3px;
+    border-radius:1px;
+    background-color: white;
+    text-align: center;
+    margin:0 8px;
+}
+
+#portfolio .stella::after , #portfolio .stella::before,
+#contact .stella::after , #contact .stella::before{
+    background-color:#3A546D;
+}
+#portfolio .stella , #contact .stella{
+    color: #3A546D;
 }
