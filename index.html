@@ -11,8 +11,8 @@
 </head>
 <body>
     <header class="container-fluid ms_bg-header">
-       <div class="container py-3">
-        <nav class="navbar navbar-expand-lg navbar-light">
+       <div class="container py-2">
+        <nav class="navbar navbar-expand-lg navbar-dark">
               <a class="navbar-brand text-uppercase" href="#"><h3>Start Bootstrap</h3></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -36,12 +36,12 @@
     </header>
 
     <main>
-        <section>
+        <section id="jumbo">
             <div class="container-fluid py-5 ms_bg-main">
                 <div class="container text-uppercase ms_c-white">
                     <div class="row flex-column align-items-center g-3">
                         <div class="col-auto">
-                            <img src="https://picsum.photos/250/250" alt="">
+                            <img src="img/avatar.svg" alt="">
                         </div>
                         <div class="col-auto">
                             <h1 class="">Start Bootstrap</h1>
@@ -55,47 +55,59 @@
             </div>
         </section>
 
-        <section class=my-5>
+        <section id="portfolio" class=my-5>
             <div class="container">
                 <h2 class="text-center text-uppercase">Portfolio</h2>
-                <div class="row g-4">
-                    <div class="col-12 col-sm-6 col-xxl-4">
-                        <div class="p-3 rounded-3 ms_border-red ms_h-250"></div>
+                <div class="row g-1">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="p-3 rounded-3">
+                            <img src="img/cabin.png" alt="">
+                        </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-xxl-4">
-                        <div class="p-3 rounded-3 ms_border-red ms_h-250"></div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="p-3 rounded-3">
+                            <img src="img/cake.png" alt="">
+                        </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-xxl-4">
-                        <div class="p-3 rounded-3 ms_border-red ms_h-250"></div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="p-3 rounded-3">
+                            <img src="img/circus.png" alt="">
+                        </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-xxl-4">
-                        <div class="p-3 rounded-3 ms_border-red ms_h-250"></div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="p-3 rounded-3">
+                            <img src="img/game.png" alt="">
+                        </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-xxl-4">
-                        <div class="p-3 rounded-3 ms_border-red ms_h-250"></div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="p-3 rounded-3">
+                            <img src="img/safe.png" alt="">
+                        </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-xxl-4">
-                        <div class="p-3 rounded-3 ms_border-red ms_h-250"></div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="p-3 rounded-3">
+                            <img src="img/submarine.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section>
+        <section id="about">
             <div class="container-fluid py-5 ms_bg-main">
                 <div class="container">
                     <h2 class="text-center text-uppercase ms_c-white pb-3">About</h2>
                     <div class="row ms_c-white justify-content-center">
                         <div class="col-12 col-sm-6"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sint quos quo aperiam porro incidunt vel, perspiciatis ullam ipsum rerum natus earum vero laboriosam ipsam voluptatibus pariatur officia, beatae minima!</p></div>
                         <div class="col-12 col-sm-6"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit recusandae quia facilis culpa voluptate ex fugiat pariatur vero explicabo repellat voluptates tenetur quos, obcaecati labore iste unde, ipsam fugit quam.</p></div>
-                        <div class="col-auto"><button type="button" class="btn btn-outline-light text-center">Download</button></div>
+                        <div class="col-auto py-3"><button type="button" class="btn btn-outline-light text-center">Download</button></div>
                     </div>
                     
                 </div>
             </div>
         </section>
 
-        <section class="my-5">
+        <section id="contact" class="my-5">
             <div class="container">
                 <h2 class="text-center text-uppercase pb-3">Contact me</h2>
                     <div class="ms_border-bottom pb-3">Name</div>
@@ -109,39 +121,55 @@
             </div>
         </section>
 
-        <footer class="container-fluid ms_bg-footer py-5">
-            <div class="container">
-                <div class="row text-center ms_c-white">
-                    <div class="col-4">
-                        <h5 class="text-uppercase">Location</h3>
-                        <p>Lorem ipsum dolor sit.</p>
-                        <p>54243</p>
-                    </div>
-                    <div class="col-4">
-                        <h5 class="text-uppercase">Around The Web</h3>
-                        <div class="row">
-                            <div class="col-3">
-                                <div class="border border border-white rounded-circle">
-                                    <i class="fab fa-facebook-f"></i>
+        <footer>
+            <div class="container-fluid ms_bg-footer py-5">
+                <div class="container">
+                    <div class="row text-center ms_c-white">
+                        <div class="col-12 col-md-4">
+                            <h5 class="text-uppercase">Location</h3>
+                            <p class="ms_copy">Lorem ipsum dolor sit.
+                                <br>54243
+                            </p>
+                        </div>
+
+                        <div class="col-12 col-md-4">
+                            <h5 class="text-uppercase">Around The Web</h3>
+                            <div class="row justify-content-center flex-nowrap">
+                                <div class="col-auto">
+                                    <div class="border border border-white rounded-circle ms_container-icon">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="border border border-white rounded-circle ms_container-icon">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="border border border-white rounded-circle ms_container-icon">
+                                        <i class="fab fa-twitter"></i>
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="border border border-white rounded-circle ms_container-icon">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-3">
-                                <div class="border border border-white rounded-circle">ciao</div>
-                            </div>
-                            <div class="col-3">
-                                <div class="border border border-white rounded-circle">ciao</div>
-                            </div>
-                            <div class="col-3">
-                                <div class="border border border-white rounded-circle">ciao</div>
-                            </div>
                         </div>
-                    </div>
-                    <div class="col-4">
-                        <h5 class="text-uppercase">About Freelancer</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, aliquid?</p>
+
+                        <div class="col-12 col-md-4">
+                            <h5 class="text-uppercase">About Freelancer</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, aliquid?</p>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <div class="container-fluid ms_bg-footer-second py-4">
+                <p class="ms_copy">Lorem ipsum dolor sit amet.</p>
+            </div>
+         
 
         </footer>
 
